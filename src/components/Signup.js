@@ -10,7 +10,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:3001/users/signup', {
+      const response = await axios.post('https://backendf-fx8p.onrender.com/users/signup', {
         email,
         rollno,
         password
