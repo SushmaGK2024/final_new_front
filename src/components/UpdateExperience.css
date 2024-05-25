@@ -1,0 +1,109 @@
+.update-experience-container {
+  width: 70%; /* Adjust container width */
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  padding-left: 5%;
+  border-radius: 1.5em;
+}
+
+.update-experience-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.update-experience-form {
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.form-group-updateexp, .form-group-updateexp-span {
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.form-group-updateexp label {
+  font-weight: bold;
+}
+
+.form-text-edu,  .form-text-company , .form-text-batch , .form-text-role {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.form-text-company {
+  margin-left: 43px;
+}
+.form-text-batch {
+  margin-left: 128px;
+
+}
+.form-text-role {
+  margin-left: 72px;
+}
+.form-text-edu {
+  width : 60%;
+  margin-left: 10px;
+}
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  max-width: 800px;
+}
+
+.form-button-updateexp {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 77%;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .update-experience-container {
+    width: 90%;
+  }
+
+  .form-group-updateexp {
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  .form-group-updateexp-span {
+    flex-direction: column;
+  }
+
+  .form-text,
+  .form-input-edu,
+  .form-textarea {
+    width: 100%;
+    max-width: 100%;
+  }
+  .form-text-batch, .form-text-company, .form-text-edu, .form-text-role {
+    margin-left: 0;
+  }
+
+  .form-button-updateexp {
+  width: auto;
+    margin-left: 0; /* Adjust button margin */
+  }
+}

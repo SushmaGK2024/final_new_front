@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600&family=Roboto:wght@400;700&display=swap');
+
+
+
+.experience-container {
+  height: 100%;
+  margin-bottom: 3%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-detail-card {
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  background: #ffff;
+  margin-left: 10%;
+  border-radius: 1.5em;
+}
+
+.experience-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.experience-inner {
+  width: 90%;
+  padding: 10px;
+}
+
+.experience-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #7f34db;
+}
+
+.experience-company {
+  font-size: 2.5em;
+  font-family: 'lora', serif;
+  margin-bottom: 15px;
+  color: #8234db;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.experience-added-by {
+  margin: 10px;
+  float: right;
+  font-size: 1.4em;
+  color: #e62236;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+  padding-top: 20px;
+}
+
+.experience-role {
+  margin: 10px;
+  padding-top: 20px;
+  font-size: 1.4em;
+  color: #e62236;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-overall-title {
+  margin: 10px;
+  white-space: pre-wrap;
+  font-family: 'lora', serif;
+  font-size: 1.6em;
+  border-top: 1px solid #7f34db;
+  padding-top: 20px;
+}
+
+.experience-overall {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  line-height: 1.8;
+  position: relative;
+  padding: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-tips-title {
+  font-weight: bold;
+  margin-top: 30px;
+  border-top: 1px solid #7f34db;
+  padding-top: 15px;
+  text-align: left;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+}
+
+.experience-tips {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+  white-space: pre-wrap;
+  line-height: 1.8;
+  position: relative;
+  padding: 10px;
+}
+
+.back-button {
+  margin-bottom: 20px;
+}

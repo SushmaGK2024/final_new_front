@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFEFEF;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 24px;
+  color: #333;
+}
+
+.dropdown {
+  height: 10%;
+  width: auto; /* Adjusted to fit the content */
+  margin: 20px auto;
+  position: fixed;
+  
+  left: 10px;
+}
+
+.menu-toggle {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  padding-left: 10px; /* Adjusted padding */
+}
+
+.line {
+  width: 30px;
+  height: 3px;
+  background-color: #333;
+  margin: 4px 0;
+  transition: background-color 0.3s ease;
+}
+
+.menu-items-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  transform: translateX(-50%);
+  
+  background-color: #FFEFEF;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  max-height: 0;
+  display: flex;
+  flex-direction: column;
+  transition: max-height 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  width: 200px;
+  left : 300%;
+}
+
+.menu-toggle:hover .menu-items-dropdown {
+  max-height: 300px; /* Adjusted value */
+}
+
+.menu-items-dropdown li {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.menu-items-dropdown li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: block;
+}
+
+.menu-items-dropdown li:hover {
+  background-color: #ecd3d3;
+}
+
+.profile-icon {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  cursor: pointer;
+  margin: 20px auto;
+}
+
+.profile-icon img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.placify-icon img {
+  width: 130px;
+  height: 80px;
+ 
+}
+
+.placify-icon {
+  position: absolute;
+  top: 0;
+  left: 80px;
+  cursor: pointer;
+}
+
+.profile-dropdown {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #FFF;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  transition: max-height 0.3s ease;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-dropdown li {
+  list-style: none;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.profile-dropdown li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  display: block;
+}

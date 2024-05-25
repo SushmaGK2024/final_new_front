@@ -1,0 +1,446 @@
+.profile-container {
+    
+    margin: 0 auto;
+    padding: 2%;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    width: 85%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   
+    padding-bottom: 80px;
+  }
+  .profile-info-username-col{
+    display: flex;
+    flex-direction: column;
+ 
+    margin: 10px 0px;
+    width: 66.6666666667%;
+    align-items: center;
+    float: left;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+    padding-top: 15px;
+    min-height: 1px;
+
+  }
+  .profile-pic-col{
+    position: relative;
+   
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 0px;
+  }
+  .profile_image{
+  height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: -1px 1px 7px #d2d2d2;
+    object-fit: cover;
+  }
+  .profile-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5em;
+    font-family: 'lora', serif;
+    margin-bottom: 15px;
+    color: #8234db;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .profile-row{
+    margin-bottom: 2rem;
+    padding-top: 5px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+    
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
+    background: transparent linear-gradient(180deg, #f4f5fa 0%, #fbfcfe 100%) 0% 0% no-repeat padding-box;
+ 
+  }
+  .profile-section-row {
+   
+    display: flex;
+    width: 50%;
+   
+  }
+  
+  .profile-section-title{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #333;
+    color: #007bff;
+   
+    margin-bottom: 10px;
+    font-size: 1.8em;
+    font-weight: 700;
+    line-height: 1.8;
+    letter-spacing: 0.02em;
+    font-size: 1.45em;
+    line-height: 1.8;
+        
+  }
+  .profile-section-academic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+   
+    background: transparent linear-gradient(180deg, #f4f5fa 0%, #fbfcfe 100%) 0% 0% no-repeat padding-box;
+  }
+  .profile-section-experience{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px !important;
+    border-radius: 10px;
+    margin-bottom: 10px !important;
+    box-shadow: 0px 3px 6px #1a191912;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.2);
+    background: transparent linear-gradient(180deg, #f4f5fa 0%, #fbfcfe 100%) 0% 0% no-repeat padding-box;
+  }
+  
+  .profile-info-item{
+    margin-bottom: 0.5rem;
+    color: #333;
+  }
+  .profile-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+  
+  .experience-list{
+    list-style: none;
+    width : 90%;
+   
+  }
+  
+  .experience-item{
+    margin-bottom: 1rem;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+    box-shadow: 0px 3px 6px #00000012;
+    background: linear-gradient(to right, #b0dbe7,#d9e1e9);
+    padding: 10px;
+  }
+  
+  .experience-company{
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .experience-details{
+    color: #666;
+  }
+  .experiencecard {
+    display: flex;
+    width: 50%;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px !important;
+    box-shadow: 0px 3px 6px #00000012;
+  
+    background: linear-gradient(to right, #b0dbe7,#d9e1e9);
+     
+    padding: 10px;
+  }
+
+  
+  .card {
+    position: relative;
+    width: 700px;
+    height: 180px;
+    
+    background: #000;
+    border-radius: 15px;
+    box-shadow: 0 15px 60px rgba(0, 0, 0, 0.5);
+    padding-bottom: 50px;
+    margin-bottom: 10px;
+
+    .face {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &.face1 {
+        box-sizing: border-box;
+        padding: 20px;
+
+        h2 {
+          margin: 0;
+          padding: 0;
+        }
+
+        .java {
+          background-color: black;
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+      
+
+    
+      }
+
+      &.face2 {
+        transition: 0.5s;
+        display: flex;
+        flex-direction: column;
+        align-items: top;
+        justify-content: left;
+
+
+        h2 {
+          margin: 0;
+          padding: 10px;
+          font-size: 2.5em;
+          color: #fff;
+          transition: 0.5s;
+          text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+          z-index: 10;
+          
+        }
+        .face2-contents {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          padding-left: 30px;
+          width: 100%;
+          padding-top: 20px;
+          color: #e6f4f8;
+          letter-spacing: 0.04em;
+          font-size: 1.02em;
+        }
+        
+      }
+    }
+  }
+
+  .card:hover .face.face2 {
+     width : 10px;
+
+    h2 {
+      font-size: 0em;
+      
+    }
+    h4 {
+      font-size : 0em;
+    }
+    .sentiment {
+      visibility: hidden;
+    }
+  }
+
+  .card .face.face2 {
+   /* background-image: linear-gradient(
+      40deg,
+      #ecebab 0%,
+      #f79bfa 45%,
+      #b4eceb 100%
+    );
+    */
+   background:  #508796;
+    border-radius: 15px;
+  }
+
+  /* Additional CSS for small screens */
+@media (max-width: 768px) {
+  .profile-section-row {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .profile-section-academic {
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .profile-container {
+    width: 100%;
+    padding: 2%;
+  }
+
+  .profile-row {
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+
+  .profile-info-username-col,
+  .profile-pic-col {
+    width: 100%;
+    margin-left: 0;
+    margin-bottom: 10px;
+  }
+
+  .profile-info {
+    flex-direction: column;
+  }
+
+  .experience-list {
+    width: 100%;
+  }
+
+  .experiencecard {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .face.face1,
+  .face.face2 {
+    height: auto;
+  }
+
+  .face.face2 {
+    flex-direction: column-reverse;
+  }
+
+  .face.face2 h2 {
+    padding: 10px;
+    font-size: 1.5em;
+  }
+
+  .face.face2 .face2-contents {
+    padding-left: 0;
+  }
+
+  .face.face2 .face2-contents h4 {
+    font-size: 1em;
+  }
+}
+
+/* Your existing CSS */
+
+/* Additional CSS for sidebar and media query */
+.sidebar {
+  width: 250px;
+  background-color: #4a4a4a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  color: white;
+}
+
+.profile-icon-profile img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+  width: 100%;
+}
+
+nav ul li {
+  margin: 15px 0;
+  text-align: center;
+}
+
+nav ul li .btn {
+  width: 80%;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+}
+
+.btn.edit {
+  background-color: #28a745;
+}
+
+.btn.change-password {
+  background-color: #ffc107;
+}
+
+.btn.logout {
+  background-color: #dc3545;
+}
+.complete-container {
+  width: 100%;
+  display: flex;
+}
+/* Media query to hide sidebar on small screens */
+@media (max-width: 768px) {
+  .complete-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .sidebar {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: top;
+    padding: 10px;
+   max-height: 10%;
+  }
+
+  .profile-icon-profile img {
+    width: 130px;
+    height: 80px;
+    margin-right: 10px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+  }
+
+  nav ul li {
+    margin: 0;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .profile-container {
+    width: 100%;
+  }
+/* Additional adjustment for smaller resolutions */
+  /* Additional adjustment for smaller resolutions */
+  @media (max-width: 500px) {
+    nav ul {
+      flex-direction: column; /* Change to a column layout for smaller resolutions */
+      align-items: center; /* Center the items vertically */
+    }
+
+    nav ul li {
+      margin: 5px 0; /* Add some margin between buttons */
+    }
+
+    nav ul li .btn {
+      width: 80%; /* Adjust button width */
+      font-size: 0.8rem; /* Adjust font size */
+    }
+  }
+}

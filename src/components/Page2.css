@@ -1,0 +1,43 @@
+
+    
+
+
+
+
+    .page2-container {
+        display: flex;
+    flex-direction: column;
+    align-items : center;
+    background : #eaf6f6;
+    width : 70%;
+    padding : 2%;
+     
+      }
+      .rounds-container {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+      }
+    @media (max-width: 768px) {
+       
+        .tech-rounds-container,
+        .hr-rounds-container {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        .page2-container {
+            display: flex;
+        flex-direction: column;
+        align-items : center;
+        background : #eaf6f6;
+        width : 100%;
+        padding : 2%;
+         
+          }
+          .rounds-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+          }
+      }

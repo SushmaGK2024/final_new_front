@@ -1,0 +1,126 @@
+
+  .about-us-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    max-width: 1200px;
+    margin-top: 20px;
+    font-size: 1.25em;
+    line-height: 1.8;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 40px;
+
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    color: #333;
+    margin: 0;
+    padding: 10px;
+    border-bottom: 2px solid #007bff;
+    display: inline-block;
+  }
+  
+  .section {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    font-size: 28px;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-size: 1.45em;
+    line-height: 1.8;
+  }
+  
+  .section p {
+    
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.15em;
+    line-height: 1.8;
+  }
+  
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    max-width: 300px;
+    flex-direction: column;
+  }
+  
+  .team-member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-member-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .team-member-info p {
+    font-size: 16px;
+    color: #777;
+    font-size: 1.15em;
+    line-height: 1.8;
+  }
+  
+  @media (max-width: 768px) {
+    .about-us-container {
+      width: 95%;
+      padding: 10px;
+    }
+  
+    .header h1 {
+      font-size: 28px;
+    }
+  
+    .section h2 {
+      font-size: 24px;
+    }
+  
+    .section p {
+        font-size: 1.0em;
+        line-height: 1.3;
+    }
+  
+    .team-member {
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+  
+    .team-member-photo {
+      width: 100px;
+      height: 100px;
+    }
+  
+    .team-member-info h3 {
+      font-size: 20px;
+    }
+  
+    .team-member-info p {
+      font-size: 14px;
+    }
+  }
+  
