@@ -13,7 +13,7 @@ const SignIn = ({ setcurrrollno }) => {
     // Use the entered rollNo and password
     console.log("Signing in");
     try {
-      const response = await fetch('https://backendf-fx8p.onrender.com/users/login', {
+      const response = await fetch('https://backend-gq9i.onrender.com/users/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -55,7 +55,7 @@ const SignIn = ({ setcurrrollno }) => {
     const handleSignup = async (e) => {
       e.preventDefault();
       try {
-        const response = await axios.post('https://backendf-fx8p.onrender.com/users/signup', {
+        const response = await axios.post('https://backend-gq9i.onrender.com/users/signup', {
           email : email,
           rollno :rollnoup,
           password: passwordup

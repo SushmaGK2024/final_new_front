@@ -69,7 +69,7 @@ const Shareexperience = (props) => {
       const body = JSON.stringify(newExperience);
 
       const res = await axios.post(
-        "https://backendf-fx8p.onrender.com/experiences/add-experience",
+        "https://backend-gq9i.onrender.com/experiences/add-experience",
         body,
         config
       );

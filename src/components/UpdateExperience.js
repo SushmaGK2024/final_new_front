@@ -25,7 +25,7 @@ const UpdateExperience = (props) => {
   useEffect(() => {
     const fetchExperience = async () => {
       try {
-        const response = await axios.get(`https://backendf-fx8p.onrender.com/experiences/getexperience/${id}`, {
+        const response = await axios.get(`https://backend-gq9i.onrender.com/experiences/getexperience/${id}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -61,7 +61,7 @@ const UpdateExperience = (props) => {
     };
 
     try {
-      const response = await axios.put(`https://backendf-fx8p.onrender.com/experiences/experiences/${id}`, updatedData, config);
+      const response = await axios.put(`https://backend-gq9i.onrender.com/experiences/experiences/${id}`, updatedData, config);
       console.log("Response:", response.data);
       alert("Updates are saved successfully!!");
     } catch (error) {
