@@ -24,7 +24,7 @@ const Profile = (props) => {
         // Fetch user profile
         const fetchUserProfile = async () => {
           try {
-            const response = await axios.get(`https://backend-gq9i.onrender.com/users/profile/${currrollno}`);
+            const response = await axios.get(`https://backendf-fx8p.onrender.com/users/profile/${currrollno}`);
             setUser(response.data);
           } catch (error) {
             console.error('Error fetching user profile:', error);
@@ -42,7 +42,7 @@ const Profile = (props) => {
       };
   
       try {
-        const response = await axios.delete(`https://backend-gq9i.onrender.com/experiences/experiences/${experienceId}`, config);
+        const response = await axios.delete(`https://backendf-fx8p.onrender.com/experiences/experiences/${experienceId}`, config);
         console.log("Delete Response:", response.data); // Log response data if needed
         alert("Experience deleted successfully!!");
         setisexpupdated(!isexpupdated);
@@ -74,7 +74,7 @@ const Profile = (props) => {
     const fetchUserProfile = async () => {
       try {
         const rollno = currrollno;
-        const response = await axios.get(`https://backend-gq9i.onrender.com/users/profile/${rollno}`);
+        const response = await axios.get(`https://backendf-fx8p.onrender.com/users/profile/${rollno}`);
        
         setUser(response.data);
         console.log("in fectch")
@@ -91,7 +91,7 @@ const Profile = (props) => {
 
     const fetchExperiences = async () => {
       try {
-        const response = await axios.get(`https://backend-gq9i.onrender.com/experiences/experience/${currrollno}`, {
+        const response = await axios.get(`https://backendf-fx8p.onrender.com/experiences/experience/${currrollno}`, {
     headers: {
       Authorization: `Bearer ${token}`,
     },
@@ -106,7 +106,7 @@ const Profile = (props) => {
 
     const fetchPlacementRecords = async () => {
       try {
-        const response = await axios.get(`https://backend-gq9i.onrender.com/placements/placementrecord/${currrollno}`, {
+        const response = await axios.get(`https://backendf-fx8p.onrender.com/placements/placementrecord/${currrollno}`, {
           headers: {
             Authorization: `Bearer ${token}`
           }

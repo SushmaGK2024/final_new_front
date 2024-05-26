@@ -26,7 +26,7 @@ function CompanyQuestions(props) {
   useEffect(() => {
     const fetchCompanyNames = async () => {
       try {
-        const companyNamesResponse = await axios.get(`https://backend-gq9i.onrender.com/experiences/experience`, {
+        const companyNamesResponse = await axios.get(`https://backendf-fx8p.onrender.com/experiences/experience`, {
           headers: {
             Authorization: `Bearer ${token}`
           }
@@ -52,12 +52,12 @@ function CompanyQuestions(props) {
       try {
         let response;
         if (filter === 'all') {
-          const technicalResponse = await axios.get(`https://backend-gq9i.onrender.com/experiences/recent-technical-questions/${company}`, {
+          const technicalResponse = await axios.get(`https://backendf-fx8p.onrender.com/experiences/recent-technical-questions/${company}`, {
             headers: {
               Authorization: `Bearer ${token}`
             }
           });
-          const hrResponse = await axios.get(`https://backend-gq9i.onrender.com/experiences/recent-hr-questions/${company}`, {
+          const hrResponse = await axios.get(`https://backendf-fx8p.onrender.com/experiences/recent-hr-questions/${company}`, {
             headers: {
               Authorization: `Bearer ${token}`
             }
@@ -68,7 +68,7 @@ function CompanyQuestions(props) {
           }
           setQuestions(allQuestions);
         } else {
-          response = await axios.get(`https://backend-gq9i.onrender.com/experiences/recent-${filter}-questions/${company}`, {
+          response = await axios.get(`https://backendf-fx8p.onrender.com/experiences/recent-${filter}-questions/${company}`, {
             headers: {
               Authorization: `Bearer ${token}`
             }

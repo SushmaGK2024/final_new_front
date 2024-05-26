@@ -26,7 +26,7 @@ const EditProfile = (props) => {
   useEffect(() => {
     const fetchProfile = async () => {
       try {
-        const response = await axios.get(`https://backend-gq9i.onrender.com/users/profile/${id}`, {
+        const response = await axios.get(`https://backendf-fx8p.onrender.com/users/profile/${id}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
@@ -64,7 +64,7 @@ const EditProfile = (props) => {
     };
     console.log("updated data : ", updatedData)
     try {
-      const response = await axios.put(`https://backend-gq9i.onrender.com/users/profile/${id}`, updatedData, config);
+      const response = await axios.put(`https://backendf-fx8p.onrender.com/users/profile/${id}`, updatedData, config);
       console.log("Response:", response.data);
       alert("Updates are saved successfully!!");
     } catch (error) {

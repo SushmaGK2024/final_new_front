@@ -10,7 +10,7 @@ const Signup = () => {
   const handleSignup = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://backend-gq9i.onrender.com/users/signup', {
+      const response = await axios.post('https://backendf-fx8p.onrender.com/users/signup', {
         email,
         rollno,
         password
